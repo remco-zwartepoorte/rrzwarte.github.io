@@ -50,7 +50,7 @@ body {
   border-radius: 50%;
   border: 5px solid #ffffff;
   margin: 0 auto;
-  margin-top: calc(40vh - 130px);
+  margin-top: calc(30vh - 130px);
   /* position: relative; */
 }
 .projects {
@@ -120,7 +120,7 @@ body {
 .hero-section {
   background: url('./assets/IMG_0913_blur.jpg') 50% no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 30vh;
   text-align: center;
   margin-bottom: 220px;
   /* display: -webkit-flex; */
