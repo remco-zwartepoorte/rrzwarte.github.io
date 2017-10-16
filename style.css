@@ -65,7 +65,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex: 1 300px;
+  flex: 1 200px;
   padding: 2em;
   margin: 1.2em;
   border-radius: 0.5em;
@@ -88,6 +88,9 @@ body {
   color: white;
   display: block;
 }
+.project:hover {
+  transform: scale(1.1);
+}
 .git {
   background: #181717;
 }
@@ -99,21 +102,29 @@ body {
 .linkedin {
   background: #0077b5;
 }
-@media (min-width: 768px) {
-  .project {
-    flex: 1 200px;
-  }
-}
 
-@media (min-width: 960px) {
-  .main-intro h2 {
-    font-size: 2em;
+@media (max-width: 767px) {
+  .hero-section h1 {
+    font-size: 19px;
+  }
+  .hero-section h2 {
+    font-size: 14px;
+  }
+  .hero-section {
+    margin-bottom: 150px !important;
   }
   .project {
-    flex: 1 150px;
+    flex: 1 300px;
   }
-  .project:hover {
-    transform: scale(1.1);
+  .aboutme {
+    font-size: 14px;
+  }
+  img.avatar {
+    height: 125px;
+  }
+  .avatar {
+    margin-top: calc(30vh - 62.5px);
+    border: 2px solid #ffffff;
   }
 }
 
