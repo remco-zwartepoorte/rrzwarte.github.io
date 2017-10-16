@@ -16,6 +16,7 @@ body {
   margin: 0em auto;
   max-width: 910px;
   padding: 0 1em;
+  /* height: 60vh; */
 }
 
 .name {
@@ -54,28 +55,30 @@ body {
   /* position: relative; */
 }
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* margin: auto; */
 }
 .project {
   height: 160px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex: 1 200px;
-  padding: 2em;
-  margin: 1.2em;
+  width: 30.6666666667%;
+  float: left;
+  /* padding: 2em; */
+  margin-left: 4%;
   border-radius: 0.5em;
   transition: transform 0.5s;
   filter: drop-shadow(5px 5px 10px #666);
+  text-align: center;
+}
+
+.project:first-child {
+  margin-left: 0;
 }
 .project svg {
   width: 4em;
   fill: white;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 .project p {
   font-size: 1em;
@@ -114,7 +117,11 @@ body {
     margin-bottom: 150px !important;
   }
   .project {
-    flex: 1 300px;
+    width: 90%;
+    margin: 1rem;
+  }
+  .project:first-child {
+    margin: 1rem;
   }
   .aboutme {
     font-size: 14px;
@@ -151,6 +158,9 @@ body {
   filter: blur(3px); */
 }
 
-.hero-section-text {
-  /* display: flex; */
+footer {
+  padding: 80px 0 50px;
+  background-color: #252a30;
+  color: #fff;
+  text-align: center;
 }
