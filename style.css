@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  background-color: #fff;
+  color: #333;
+  margin: 0px;
+}
+
+.wrapper {
+  margin: 0em auto;
+  max-width: 960px;
+  padding: 0 1em;
+}
+
+.header {
+  text-align: center;
+  height: 60vh;
+  /* margin-bottom: 250px; */
+}
+
+.name {
+  font-size: 24px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  margin-bottom: 0.1em;
+}
+
+.headline {
+  font-size: 19px;
+  line-height: 1.42115;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  color: #888;
+  margin-top: 0.1em;
+}
+
+.aboutme {
+  /* border-top: 1px solid #d6d6d6; */
+  /* border-bottom: 1px solid #d6d6d6; */
+  text-align: center;
+  /* background-color: #fafafa; */
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 300;
+  letter-spacing: -0.021em;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.project {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1 300px;
+  padding: 2em;
+  margin: 1.2em;
+  border-radius: 0.5em;
+  transition: transform 0.5s;
+  filter: drop-shadow(5px 5px 10px #666);
+}
+.project svg {
+  width: 4em;
+  fill: white;
+  margin-bottom: 2em;
+}
+.project p {
+  font-size: 1em;
+  font-weight: 500;
+  backface-visibility: hidden;
+}
+
+.project a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.git {
+  background: #181717;
+}
+
+.insta {
+  background: #e4405f;
+}
+
+.linkedin {
+  background: #0077b5;
+}
+@media (min-width: 768px) {
+  .project {
+    flex: 1 200px;
+  }
+}
+
+@media (min-width: 960px) {
+  .main-intro h2 {
+    font-size: 2em;
+  }
+  .project {
+    flex: 1 150px;
+  }
+  .project:hover {
+    transform: scale(1.1);
+  }
+}
+
+.hero-section {
+  background: url('./assets/IMG_0913_blur.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 40vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  /* -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px); */
+}
+
+.hero-section-text {
+  /* display: flex; */
+}
+
+.avatar {
+  margin-top: 50vh;
+}
