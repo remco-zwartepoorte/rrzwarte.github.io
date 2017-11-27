@@ -66,7 +66,7 @@ body {
   /* padding: 2em; */
   margin-left: 4%;
   border-radius: 0.5em;
-  transition: transform 0.5s;
+  transition: all 0.5s linear;
   filter: drop-shadow(5px 5px 10px #666);
   text-align: center;
 }
@@ -92,14 +92,14 @@ body {
   display: block;
 }
 .project:hover {
-  transform: scale(1.1);
+  transform: scale3d(1.2, 1.2, 1);
 }
-.git {
-  background: #181717;
+.github {
+  background: #24292e;
 }
 
-.insta {
-  background: #e4405f;
+.twitter {
+  background: #1da1f2;
 }
 
 .linkedin {
