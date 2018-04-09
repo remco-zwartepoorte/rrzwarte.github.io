@@ -69,10 +69,14 @@ body {
   flex-wrap: wrap;
   margin: 0em auto;
   max-width: 64em;
+  justify-content: center;
 }
 
 .project {
-  flex: 1 160px;
+  min-width: 14em;
+  max-width: 16em;
+  flex-basis: auto;
+  flex-grow: 1;
   margin: 1.2em;
   border-radius: 0.5em;
   transition: all 0.2s ease-in-out;
