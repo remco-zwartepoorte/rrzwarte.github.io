@@ -33,28 +33,16 @@ body {
   display: block;
 }
 
-.hero-section {
-  background: url('./assets/IMG_0913_blur.jpg') 50% no-repeat;
+.hero {
+  background: url('./assets/hero_background.jpg') 50% no-repeat;
   background-size: cover;
   height: 30vh;
   text-align: center;
   margin-bottom: 16em;
 }
 
-.name {
-  font-size: 2em;
-  font-weight: 600;
-  margin-bottom: 0.1em;
-}
-
-.headline {
-  font-size: 1.18em;
-  font-weight: 400;
-  color: #888;
-  margin-top: 0.1em;
-}
-
-.avatar {
+.hero_avatar {
+  height: 15.625em;
   border-radius: 50%;
   border: 5px solid #ffffff;
   margin: 0 auto;
@@ -63,8 +51,17 @@ body {
     0 1.5px 3px 0 rgba(68, 35, 35, 0.15);
 }
 
-img.avatar {
-  height: 15.625em;
+.hero_name {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 0.1em;
+}
+
+.hero_subtitle {
+  font-size: 1.18em;
+  font-weight: 400;
+  color: #888;
+  margin-top: 0.1em;
 }
 
 .projects {
