@@ -73,7 +73,7 @@ body {
 
 .project {
   flex: 1 160px;
-  margin: 0.5em;
+  margin: 1.2em;
   border-radius: 0.5em;
   transition: all 0.2s ease-in-out;
   filter: drop-shadow(5px 5px 10px #666);
@@ -99,7 +99,7 @@ body {
   display: block;
 }
 .project:hover {
-  transform: scale3d(1.03, 1.03, 1);
+  transform: scale3d(1.05, 1.05, 1);
 }
 .github {
   background: #24292e;
@@ -114,7 +114,11 @@ body {
 }
 
 .instagram {
-  background: #e4405f;
+  background: #dd2a7b;
+}
+
+.strava {
+  background: #fc4c02;
 }
 
 footer {
