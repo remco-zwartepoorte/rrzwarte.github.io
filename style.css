@@ -81,7 +81,7 @@ body {
   max-width: 16em;
   min-width: 14em;
   text-align: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .project svg {
